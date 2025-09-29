@@ -1,2 +1,11 @@
-print("Hello world")
-print("How was your day?")
+class Solution(object):
+    def twoSum(self, nums, target):
+        for i in range(len(nums)):
+            for j in range(i + 1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
+
+new = Solution()
+L = [1, 4, 3, 5, 6, 22, 13]
+output = new.twoSum(L, 11)
+print(output)
