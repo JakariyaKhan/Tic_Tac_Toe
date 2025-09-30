@@ -6,6 +6,6 @@ class Solution(object):
                     return [i, j]
 
 new = Solution()
-L = [1, 4, 3, 5, 6, 22, 13]
-output = new.twoSum(L, 11)
+L = [1, 4, 3, 5, 6, 22, 13,34,12,41,9]
+output = new.twoSum(L, 56)
 print(output)
